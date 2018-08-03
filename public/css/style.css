@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+footer{
+  margin-top: 20px;
+}
+
+.story-text{
+  height: 100px;
+}
+
+.dash-status{
+  text-transform: capitalize;
+}
+
+#delete-form{
+  display: inline;
+}
+
+.comment-body{
+  padding: 5px;
+  margin-bottom: 10px;
+}
